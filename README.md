@@ -4,5 +4,5 @@ My devChallenges submissions so far.
 ## Projects:
 
 ### Responsive Web Developer
-1. [404 Not Found](./404-not-found) - [Demo](https://hermes179.github.io/devChallenges/404-not-found)
-2. [My Team Page](./my-team-page) - [Demo](https://hermes179.github.io/devChallenges/my-team-page)
+1. [404 Not Found](./404_NOT_FOUND) - [Demo](https://hermes179.github.io/devChallenges/404_NOT_FOUND)
+2. [My Team Page](./My-Team-Page) - [Demo](https://hermes179.github.io/devChallenges/My-Team-Page)
