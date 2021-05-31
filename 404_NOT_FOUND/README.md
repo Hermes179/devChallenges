@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://hermes179.github.io/devChallenges.io-404_NOT_FOUND/">
+    <a href="https://hermes179.github.io/devChallenges/404_NOT_FOUND/">
       Demo
     </a>
     <span> | </span>
@@ -46,7 +46,7 @@
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [HTML](https://reactjs.org/)
+- [HTML]()
 - [CSS](https://devdocs.io/css/)
 - [Hosted on Netlify](https://www.youtube.com/playlist?list=PLzlG0L9jlhEPMR8haUPkxj2hJ_3jh5qa6)
 
