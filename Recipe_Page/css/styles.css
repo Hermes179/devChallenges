@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  body{
+    padding: 50px 200px;
+  }
+
+h1,h2,h3{
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 20px;
+}
+.description img{
+  position:relative;
+  bottom:20px;
+
+}
+.description{
+  display: flex;
+  /* padding-left:30px; */
+  color: #4f4f4f;
+  width: 600px;
+}
+
+.cake{
+  width:100%;
+  margin: 20px 0px;
+}
+
+.card{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  float: right;
+  padding: 10px;
+  border-radius: 20px;
+}
+.card-header,.card-content{
+  display: flex;
+  padding: 20px;
+}
+.orange{
+  color:#F2994A;
+}
+.info{
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #BDBDBD;
+}
+time{
+  font-size: 14px
+}
+
+article{
+  color: #333333;
+  padding-right: 290px;
+}
+
+/*  check box */
+.checkbox {
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+  
+}
+.checkbox input{
+  width: 50px;
+}
+.checkbox span {
+  padding: 0.5rem 0.25rem;
+}
+
+.checkbox input {
+  height: 25px;
+  width: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  outline: none;
+  transition-duration: 0.3s;
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+.checkbox  input:checked {
+  border: 1px solid #F2994A;
+  background-color: #4F4F4F;
+}
+
+.checkbox >  input:checked + span::before {
+  content: '\2713';
+  display: block;
+  text-align: center;
+  color: #F2994A;
+  position: absolute;
+  left: 0.4rem;
+  top: 0.4rem;
+}
+
+.checkbox input:active {
+  border: 2px solid #F2994A;
+}
+
+
+ol li {
+  list-style: none;
+  counter-increment: steps;
+  margin:10px;
+  text-align: justify;
+}
+
+ol li::before {
+  content: counter(steps);
+  margin-right: 0.5rem;
+  background: #F2994A;
+  color: white;
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 20%;
+  display: inline-grid;
+  place-items: center;
+  line-height: 1.2em;
+}
+
+
+.link{
+  color:#BDBDBD;
+}
+
+footer,a{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color:#828282;
+  padding-top: 20px;
+}
+
+@media screen and (max-width:950px) {
+
+  body{
+    padding:30px 10px;
+  }
+  h1{
+    font: size 24px;
+    line-height: 32px;
+  }
+  .description{
+    font-size: 12px;
+    width:350px;
+  }
+  
+  .card{
+    padding: 5px;
+    box-shadow: 0px 0px 0px;
+    width: 100%;
+    float: left;
+  }
+
+  .card-time{
+    display: flex;
+  }
+}
