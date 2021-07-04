@@ -43,7 +43,7 @@ From this Challenge I learned
 
 - How to create a customized CheckBox
 - How to change the appearance of the marker of list elements
-- 
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
