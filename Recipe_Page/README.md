@@ -39,13 +39,11 @@
 
 ![image](https://user-images.githubusercontent.com/61943677/124393287-5978b000-dd17-11eb-99bb-4eaefc99ab7b.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+From this Challenge I learned
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
-
+- How to create a customized CheckBox
+- How to change the appearance of the marker of list elements
+- 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
@@ -59,9 +57,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
-- [x] User story: This is a completed user stories
-- [x] User story: This is a incompleted user stories
-- [x] User story: This is a incompleted 2nd user stories
+- [x] User story: You can see a recipe with ingredients and instructions
+- [x] User story: I can select a checkbox if I have the ingredients
+- [x] User story: I can see the number of servings, baking times
 
 ## How To Use
 
@@ -69,7 +67,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/Hermes179/devChallenges/tree/main/Recipe_Page
 
 # Install dependencies
 $ npm install
@@ -89,5 +87,5 @@ $ npm start
 ## Contact
 
 
-- GitHub [@your-username](https://github.com/Hermes179)
+- GitHub [@Hermes179](https://github.com/Hermes179)
 
