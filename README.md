@@ -8,3 +8,4 @@ My devChallenges submissions so far.
 2. [My Team Page](./My-Team-Page) - [Demo](https://hermes179.github.io/devChallenges/My-Team-Page)
 3. [Interior Consultant](./Interior_Consultant) - [Demo](https://hermes179.github.io/devChallenges/Interior_Consultant)
 4. [Recipe Page](./Recipe_Page) - [Demo](https://hermes179.github.io/devChallenges/Recipe_Page)
+5. [My Gallery](./My-gallery) - [Demp](https://hermes179.github.io/devChallenges/My-gallery/) 
