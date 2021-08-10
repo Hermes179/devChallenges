@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <script src="https://kit.fontawesome.com/55740603f2.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Checkout Page</title>
+
+    </head>
+  <body>
+    <header>
+      
+    </header>
+    <h1 class="inside">Checkout</h1>
+
+    <section class="🍺">
+
+    <section class="greyBox">
+      
+      <div class="📦1">
+        <img src="photo1.png" alt="">
+        <div>
+          <p>Vintage Backbag</p>
+          <p class="price">$54.99</p>
+          <span>$94.99</span>
+          <div class="addMore">
+            <input class="btn" type="button" onclick="decrementValue()" value="-" />
+            <input class="num" type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
+            <input class="btn" type="button" onclick="incrementValue()" value="+" />
+          </div>
+        </div>
+
+      </div>
+      <div class="📦2">
+        <img src="photo2.png" alt="">
+        <div>
+          <p>Levi Shoes</p>
+          <p class="price">$74.99</p>
+          <span>$124.99</span>
+          <div class="addMore">
+            <input class="btn" type="button" onclick="decrementValue2()" value="-" />
+            <input class="num" type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number2" />
+            <input class="btn" type="button" onclick="incrementValue2()" value="+" />
+          </div>
+        </div>
+      </div>
+      <div class="💵">
+        <hr> 
+        <div> 
+          <p>Shipping</p>
+          <p>$19</p>
+        </div>
+        <hr>
+        <div>
+          <p>Total</p>
+          <p>$148.88</p>
+        </div>
+      </div>
+    </section>
+    <main class="🗂">
+
+          <form action="">
+            <h4>Contact information</h4>
+            <div>
+            <p>E-mail</p>
+            <input type="text" placeholder="Enter your email...">
+            <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <p>Phone</p>
+              <input type="text" placeholder="Enter your phone..." >
+              <i class="fas fa-phone-alt"></i>
+            </div>
+          </form>
+          <h4>Shipping address</h4>
+          <form action="">
+          <div>
+            <p>Full name</p>
+            <input type="text" placeholder="Enter your name" value="Rodney Cotton">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div>
+            <p>Address</p>
+            <input type="text" placeholder="Your address...">
+            <i class="far fa-building"></i>
+          </div>
+          <div>
+            <p>City</p>
+            <input type="text" placeholder="Your city...">
+            <i class="fas fa-home"></i>
+          </div>
+          <div class="diffSection">
+            <div>
+              <p>Country</p>
+              <select name="" >
+                <option >Your country...</option>
+                <option value="USA">United States</option>
+                <option value="UK">United Kingdoms</option>
+                <option value="IN">India</option>
+                <option value="CAN">Canada</option>
+                <option value="AUS">Australia</option>
+                <option value="NZ">New Zealand</option>
+                <option value="AFC">Africa</option>
+                <option value="RUS">Russia</option>
+                <option value="MEX">Mexico</option>
+                <option value="JAP">Japan</option>
+              </select>
+              <i class="fas fa-globe-europe"></i>
+            </div>
+            <div>
+              <p>Personal code</p>
+              <input type="text" placeholder="Your postal code">
+              <i class="fas fa-address-card"></i>
+            </div>
+          </div>
+          <div class="save">
+            <input type="checkbox">
+            <p>Save this information for next time</p>
+          </div>
+          </form>
+          
+    </main>
+
+  </section>
+  <div class="cont">
+    <button>Continue</button>
+  </div>
+  <br>
+  <footer class="footer">created by <b><a class="footer"
+    href="https://devchallenges.io/portfolio/Hermes179">Hermes179</a></b>
+    - devChallenges.io</footer>
+    <script src="script.js"></script>
+  </body>
+  
+</html>
